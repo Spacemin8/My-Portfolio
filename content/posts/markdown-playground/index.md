@@ -127,7 +127,7 @@ input[type='input'] {
 }
 
 .row-12 > [class*='spans'] {
-  border-left: 1px solid #b5c583;
+  border-left: 1px solid 5c583;
 }
 
 // nested definitions
