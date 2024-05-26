@@ -7,20 +7,8 @@ module.exports = {
       url: 'https://github.com/Spacemin8',
     },
     {
-      name: 'Instagram',
-      url: '',
-    },
-    {
-      name: 'Twitter',
-      url: '',
-    },
-    {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/upretysunil',
-    },
-    {
-      name: 'Codepen',
-      url: '',
     },
   ],
 

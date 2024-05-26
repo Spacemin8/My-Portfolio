@@ -21,8 +21,8 @@ const StyledAboutSection = styled.section`
 const StyledText = styled.div`
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 400px));
-    grid-gap: 0 10px;
+    grid-template-columns: repeat(3, minmax(140px, 400px));
+    grid-gap: 0 60px;
     padding: 0;
     margin: 20px 0 0 0;
     overflow: hidden;
@@ -125,7 +125,17 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript/TypeScript', 'Python', 'React', 'Vue.js', 'Angular', 'Django'];
+  const skills = [
+    'JavaScript/TypeScript',
+    'Python',
+    'React',
+    'Redux-Toolkit',
+    'Next.js',
+    'Vue.js',
+    'Angular',
+    'Nest',
+    'Django',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -169,7 +179,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me1.jpg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
