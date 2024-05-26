@@ -11,4 +11,5 @@ tech:
   - AWS
 ---
 
-Excellent project for Building designer
+- This project was developed with Next.js.
+- This is excellent project for Building designer.
